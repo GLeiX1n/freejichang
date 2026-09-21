@@ -1,0 +1,220 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+ipv6: true
+proxies:
+- name: 节点-01
+  type: vless
+  server: '2606:4700:3030::6815:5e1d'
+  port: 443
+  uuid: 7ac3baa8-17d1-4612-ba3b-745d8c775c23
+  udp: true
+  tls: true
+  servername: ch2-2-1.000000000097X.kDNS.Fr
+  client-fingerprint: chrome
+  network: ws
+  skip-cert-verify: false
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /zMxg2l96rtAtykKeC
+    headers:
+      Host: cH2-2-1.000000000097x.kdnS.FR
+  packet-encoding: xudp
+- name: 节点-02
+  type: vless
+  server: '2606:4700:3030::6815:5e1d'
+  port: 443
+  uuid: 7ac3baa8-17d1-4612-ba3b-745d8c775c23
+  udp: true
+  tls: true
+  servername: ch2-2-2.000000000097X.KDNs.Fr
+  client-fingerprint: chrome
+  network: ws
+  skip-cert-verify: false
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /zMxg2l96rtAtykKeC
+    headers:
+      Host: CH2-2-2.000000000097x.KDns.Fr
+  packet-encoding: xudp
+- name: 节点-03
+  type: vless
+  server: '2606:4700:130:436c:6f75:6466:6c61:7265'
+  port: 443
+  uuid: 7ac3baa8-17d1-4612-ba3b-745d8c775c23
+  udp: true
+  tls: true
+  servername: cH2-2-3.000000000097X.kDns.FR
+  client-fingerprint: chrome
+  network: ws
+  skip-cert-verify: false
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /zMxg2l96rtAtykKeC
+    headers:
+      Host: Ch2-2-3.000000000097x.kDNS.fR
+  packet-encoding: xudp
+- name: 节点-04
+  type: vless
+  server: '2606:4700:3032::ac43:da8d'
+  port: 443
+  uuid: 7ac3baa8-17d1-4612-ba3b-745d8c775c23
+  udp: true
+  tls: true
+  servername: ch2-2-4.000000000097x.kDNs.Fr
+  client-fingerprint: chrome
+  network: ws
+  skip-cert-verify: false
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /zMxg2l96rtAtykKeC
+    headers:
+      Host: Ch2-2-4.000000000097X.kdNS.fR
+  packet-encoding: xudp
+- name: 节点-05
+  type: vless
+  server: '2606:4700:130:436c:6f75:6466:6c61:7265'
+  port: 443
+  uuid: 7ac3baa8-17d1-4612-ba3b-745d8c775c23
+  udp: true
+  tls: true
+  servername: Ch2-2-5.000000000097X.kDnS.FR
+  client-fingerprint: chrome
+  network: ws
+  skip-cert-verify: false
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /zMxg2l96rtAtykKeC
+    headers:
+      Host: cH2-2-5.000000000097x.KdNs.Fr
+  packet-encoding: xudp
+- name: 节点-06
+  type: vless
+  server: '2606:4700:130:436c:6f75:6466:6c61:7265'
+  port: 443
+  uuid: 7ac3baa8-17d1-4612-ba3b-745d8c775c23
+  udp: true
+  tls: true
+  servername: Ch2-2-6.000000000097x.KdNS.fr
+  client-fingerprint: chrome
+  network: ws
+  skip-cert-verify: false
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /zMxg2l96rtAtykKeC
+    headers:
+      Host: Ch2-2-6.000000000097X.KdNS.FR
+  packet-encoding: xudp
+- name: 节点-07
+  type: vless
+  server: 172.64.80.1
+  port: 443
+  uuid: 7ac3baa8-17d1-4612-ba3b-745d8c775c23
+  udp: true
+  tls: true
+  servername: ch2-2-7.000000000097X.kdns.fR
+  client-fingerprint: chrome
+  network: ws
+  skip-cert-verify: false
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /zMxg2l96rtAtykKeC
+    headers:
+      Host: ch2-2-7.000000000097x.kdNS.fR
+  packet-encoding: xudp
+- name: 节点-08
+  type: vless
+  server: 104.21.94.29
+  port: 443
+  uuid: 7ac3baa8-17d1-4612-ba3b-745d8c775c23
+  udp: true
+  tls: true
+  servername: cH2-2-8.000000000097x.kdNS.fr
+  client-fingerprint: chrome
+  network: ws
+  skip-cert-verify: false
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /zMxg2l96rtAtykKeC
+    headers:
+      Host: CH2-2-8.000000000097x.kdnS.FR
+  packet-encoding: xudp
+- name: 节点-09
+  type: vless
+  server: '2606:4700:130:436c:6f75:6466:6c61:7265'
+  port: 443
+  uuid: 7ac3baa8-17d1-4612-ba3b-745d8c775c23
+  udp: true
+  tls: true
+  servername: Ch2-2-9.000000000097x.KDNS.FR
+  client-fingerprint: chrome
+  network: ws
+  skip-cert-verify: false
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /zMxg2l96rtAtykKeC
+    headers:
+      Host: cH2-2-9.000000000097x.KdNS.fR
+  packet-encoding: xudp
+- name: 节点-10
+  type: vless
+  server: '2606:4700:130:436c:6f75:6466:6c61:7265'
+  port: 443
+  uuid: 7ac3baa8-17d1-4612-ba3b-745d8c775c23
+  udp: true
+  tls: true
+  servername: cH2-2-0.000000000099X.KDns.fR
+  client-fingerprint: chrome
+  network: ws
+  skip-cert-verify: false
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /zMxg2l96rtAtykKeC
+    headers:
+      Host: Ch2-2-0.000000000099X.kdNS.fr
+  packet-encoding: xudp
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - 自动选择
+  - 节点-01
+  - 节点-02
+  - 节点-03
+  - 节点-04
+  - 节点-05
+  - 节点-06
+  - 节点-07
+  - 节点-08
+  - 节点-09
+  - 节点-10
+  - DIRECT
+- name: 自动选择
+  type: url-test
+  proxies:
+  - 节点-01
+  - 节点-02
+  - 节点-03
+  - 节点-04
+  - 节点-05
+  - 节点-06
+  - 节点-07
+  - 节点-08
+  - 节点-09
+  - 节点-10
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+rules:
+- MATCH,PROXY
