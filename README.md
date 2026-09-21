@@ -1,0 +1,1 @@
+下载.yaml之后导入到代理软件，推荐手机使用flclsh或者clash。电脑使用clash verge
